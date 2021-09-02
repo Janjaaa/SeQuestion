@@ -75,3 +75,54 @@
 #question-form form footer > div img {
   margin-right: 0.9rem;
 }
+
+/* QUESTIONS */
+.question-wrapper {
+  background: var(--light-blue);
+  border: 0.2rem solid var(--details);
+  margin-bottom: 0.8rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  padding: 2.4rem;
+}
+.question-wrapper .question-content {
+  display: flex;
+  align-items: flex-start;
+}
+.question-wrapper .question-content .user {
+  background: var(--orange);
+  clip-path: circle();
+  padding: 1.4rem;
+}
+.question-wrapper .question-content p {
+  margin-left: 1.6rem;
+  word-break: break-word;
+  display: flex;
+  align-items: center;
+  min-height: 5.2rem;
+}
+.question-wrapper .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.question-wrapper .actions > a {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+
+  margin-left: 2.4rem;
+}
+.question-wrapper .actions a img {
+  margin-right: 0.8rem;
+}
+.question-wrapper .actions > a:nth-child(2) {
+  margin-left: 2.4rem;
+}
+/* Question read */
+
+.question-wrapper.read {
+  background: #5f5f5f;
+}
+.question-wrapper.read .question-content .user {
+  background: var(--details);
+}

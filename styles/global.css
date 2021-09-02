@@ -80,7 +80,18 @@ button > img,
   margin-right: 1rem;
   width: 2rem;
 }
+button.red,
+.button.red {
+  background: var(--red);
+  border: 1px solid var(--overlay);
+}
 
+button.grey, .button.grey{
+  border: 1px solid var(--overlay);
+  background: var(--light);
+}
+
+/*   Header   */
 .content header {
   width: 80%;
   margin: 3.5rem auto;
